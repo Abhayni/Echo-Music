@@ -103,3 +103,7 @@ Vertical swipe discovery, laid out like a Resso-style "For You" page (interactio
 ## Ambient Mode Canvas
 
 Ambient Mode may layer muted Canvas video artwork inside the existing album-art square. Keep the original square size, rounded clipping, and interaction surface unchanged; Canvas is a non-interactive visual layer above the normal album art and follows playback state. The existing glow background remains separate underneath the screen.
+
+## Separate Web Migration
+
+The `echo-music-web/` workspace uses the Echo Nothing-inspired language in browser form: a near-black base, high-contrast typography, fine separators, restrained 8–12px control radii, and artwork-forward layouts. Desktop uses a fixed navigation rail and a shared bottom player; narrow screens use compact bottom navigation and a touch-sized player. Keep playback chrome attached to the single shared audio session. Show real provider metadata and license attribution rather than decorative counts or fabricated catalog data. Detailed tokens and current parity are recorded in the web workspace documentation.
