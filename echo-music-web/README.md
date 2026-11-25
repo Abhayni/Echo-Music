@@ -1,4 +1,4 @@
-# Echo Music Web
+# Echo Music Web npm run dev
 
 A separate, browser-oriented implementation of Echo Music concepts. It does not modify or replace the Android source. One shared HTML audio player handles officially streamed Audius tracks, qualifying licensed Internet Archive recordings, Jamendo's official stream URLs when an API client ID is configured, and user-selected local files. YouTube Data API v3 provides metadata only; selecting a YouTube result searches authorized audio providers for an exact title-and-artist match.
 
